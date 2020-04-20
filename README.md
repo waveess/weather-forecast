@@ -8,7 +8,7 @@ Built With:
 3- js
 
 
-purpose: 
+Purpose: 
 this webpage provides a weather forecast for a given city based on user's input for up to five consecutive days.
 
-functionality: 
+Functionality: 
