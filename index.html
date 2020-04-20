@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Weather Dashboard</title>
+</head>
+<body>
+<div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4 text-center bg-dark text-white" >Weather Dashboard</h1>
+        </div>
+</div>
+
+      <!--Search-->
+      <div class= "container">
+          <div class = "row">
+              <div class = "col-md-4 col-sm-12 bg-light">
+                  <h6>Search for a City</h6>
+                    <div class = "input-group mb-3">
+                            <input type="text" class="form-control" id="weather-search" aria-label="Weather Search" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class = "btn btn-outline-primary" type = "button" id = "button-addon2 search-btn"><i class="fas fa-search"></i>🌻</button>
+                            </div>
+                    </div>
+                    <!--Search history-->
+                    <div class = "search-history">
+
+                    </div>
+                </div>
+
+                <!--Weather Info-->
+                <div class = "col-md-8 col-sm-12">
+                    <div class = "card">
+                        <div class = "card-body weather-info">
+
+                        </div>
+                    </div>
+
+                    <!--forecast-->
+                    <h3>5 Day Forecast: </h3>
+                    <div class="row" id="forecast">
+                        <div class="col-md-2 col-sm-6 col-xs-6" id="forecast-day1">
+    
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6" id="forecast-day2">
+    
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6" id="forecast-day3">
+    
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6" id="forecast-day4">
+    
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6" id="forecast-day5">
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.26/moment-timezone-with-data-2012-2022.js"></script>
+    <script src = "./assets/js/weather.js"></script>
+</body>
+</html>
